@@ -1,0 +1,23 @@
+/* Navbar.css */
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Add any additional styles as needed */
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    /* Add any specific styles for the search bar container */
+  }
+  
+  .search-input {
+    /* Add any specific styles for the search input */
+  }
+  
+  .sort-select {
+    /* Add any specific styles for the sorting select */
+  }
+  

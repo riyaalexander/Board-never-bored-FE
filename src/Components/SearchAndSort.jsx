@@ -19,18 +19,20 @@ const SearchAndSortPage = ({ games }) => {
   });
 
   return (
-    <div>
+    <div className="search-and-sort-page">
       <SearchBar searchTerm={searchTerm} onSearchTermChange={setSearchTerm} />
 
       <SortingFeature sortOrder={sortOrder} onSortOrderChange={setSortOrder} />
 
-      {sortedGames.map((game) => (
-        <div key={game.id}>
-          <h2>{game.name}</h2>
-          <p>{game.description}</p>
-          <a href={`/games/${game.id}`}>View Game</a>
-        </div>
-      ))}
+      <div className="game-container">
+        {sortedGames.map((game) => (
+          <a href={`/games/${game.id}`} key={game.id} className="game-box">
+            <img src={game.image} alt={game.name} className="game-image" />
+            <h2>{game.name}</h2>
+            <p>{game.description}</p>
+          </a>
+        ))}
+      </div>
     </div>
   );
 };

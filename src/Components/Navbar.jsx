@@ -1,21 +1,18 @@
-import React from 'react';
+import React from "react";
+import SearchBar from "./SearchBar";
 
-function Navbar() {
+import FormPage from "./Form";
+
+const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/search">Search</a>
-        </li>
-        <li>
-          <a href="/form">Add Game</a>
-        </li>
-      </ul>
-    </nav>
+    <div className="navbar-container">
+      {FormPage}
+      
+      <div className="search-bar-container">
+        <SearchBar />
+      </div>
+    </div>
   );
-}
+};
 
 export default Navbar;
