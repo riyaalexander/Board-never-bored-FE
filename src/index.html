@@ -4,27 +4,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Board, Never Bored!</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="App.css">
 </head>
 <body>
-  <nav>
-    <div class="navbar">
-      <h1>Board, Never Bored!</h1>
-      <div class="navbar-buttons">
-        <input type="text" placeholder="Search games">
-        <select>
-          <option value="asc">Sort A-Z</option>
-          <option value="desc">Sort Z-A</option>
-        </select>
-        <a href="src/Components/Form.jsx">Add New Game</a>
+    <nav class="navbar">
+      <div class="navbar-logo">Board, Never Bored!</div>
+      <div class="navbar-links">
+        <a href="#">Form</a>
+        <a href="#">Search</a>
+        <a href="#">Sorting</a>
+      </div>
+    </nav>
+  
+    <div class="game-container">
+      <!-- Game cards go here -->
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64594e0dcac944dc2ea4b6dd/download/OIP.7gCeEW368vgS_Fp5SGDAuQHaEK.jpeg" alt="Solitaire">
+        <a href="#">Game 1</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64594d6aea19740b32133745/download/Sherlock-Holmes-Consulting-Detective-review-directory-map-and-case-book-Cropped.jpg" alt="Sherlock Holmes">
+        <a href="#">Game 2</a>
+      </div>
+      <div class="game-card">
+        <img src="https://store-images.microsoft.com/image/apps.24238.9007199266467036.cab37b4b-ffc2-4d11-ae3b-379fb9f591e2.3923b35c-19d9-4198-9570-ee4e6319a90a?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg" alt="Freecell">
+        <a href="#">Game 3</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64594e944974ab0721739a3e/download/Box-and-Components-500x375.jpg" alt="Patchwork">
+        <a href="#">Game 4</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64594ed333086630b27083ab/download/images.jpeg" alt="Spit">
+        <a href="#">Game 5</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64594f4b0f1fdf8a7a52dedf/download/KGIwunOpKNZ8Vbq9DtePSHzW21EI0HC_w3_3wWy3-926_1QnEq0aaUxnZh40tmNuMJk.png" alt="Mancala">
+        <a href="#">Game 6</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64594f97a33e4a7b988afa23/download/images.jpeg" alt="Chess">
+        <a href="#">Game 7</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/645950b6b19d5249a1c0cce3/download/images.jpeg" alt="Checkers">
+        <a href="#">Game 8</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/64595135e9a778a676f2e0b8/download/images.jpeg" alt="Phase 10">
+        <a href="#">Game 9</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/645951703a339087d2ec29fc/download/images.png" alt="Uno">
+        <a href="#">Game 10</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/6459529ab8ebfdbd104c0b1d/download/Jenga_C2_AE%2BGiant_E2_84_A2%2BPremium%2BHardwood%2BGame%2B_28Wayfair%2BExclusive_29.jpg" alt="Jenga">
+        <a href="#">Game 11</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/c/jyPxRT9T/7-pictures-for-each-game" alt="Monopoly">
+        <a href="#">Game 12</a>
+      </div>
+      <div class="game-card">
+        <img src="uhttps://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/645953a0423cce03b974151e/download/103067349-Screen_Shot_2015-10-09_at_11.48.12_AM.png" alt="Cards Against Humanity">
+        <a href="#">Game 13</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/6459559f6dbcf9eae9b87882/download/91ABJdVWwyL._AC_SX679_.jpg" alt="Sorry">
+        <a href="#">Game 14</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/645955eb85bb172038d84605/download/mb4658_1_.jpg" alt="Sorry">
+        <a href="#">Game 15</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/6459560ba96f811489e1afae/download/16066.jpg" alt="Apples to Apples">
+        <a href="#">Game 16</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/645956421f66853021c6de83/download/712ygGj5yvL._AC_SX679_.jpg" alt="Dominoes">
+        <a href="#">Game 17</a>
+      </div>
+      <div class="game-card">
+        <img src="https://trello.com/1/cards/64592692dba2ddde3dcfe24b/attachments/645956ce3176992d3f88bf92/download/spades-350x300.png" alt="Spades">
+        <a href="#">Game 18</a>
       </div>
     </div>
-  </nav>
-
-  <div class="content">
-    <!-- Your game listings or other content here -->
-  </div>
-
-  <script src="path/to/your/javascript/script.js"></script>
-</body>
+  </body>
+  
 </html>

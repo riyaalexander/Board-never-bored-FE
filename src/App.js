@@ -4,6 +4,7 @@ import HomePage from './Components/HomePage';
 import Navbar from './Components/Navbar';
 import SearchAndSortPage from './Components/SearchAndSort';
 import FormPage from './Components/Form';
+import SortingFeature from './Components/SortingFeature';
 
 function App() {
   return (
@@ -14,15 +15,13 @@ function App() {
       </header>
       <main>
         <div className="search-bar">
-          {SearchAndSortPage}
+          <SearchAndSortPage />
         </div>
         <div className="sorting-feature">
-          {FormPage}
+          <SortingFeature />
         </div>
         <HomePage />
-        <div className="form-button">
-          {}
-        </div>
+        <div className="form-button">{FormPage}</div>
       </main>
     </div>
   );
